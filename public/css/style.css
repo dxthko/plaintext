@@ -1,0 +1,21 @@
+@import url(reset.css);
+@import url(index.css);
+@import url(register.css);
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+  font-family: 'Roboto Mono', monospace;
+
+  --background: #f5fefd;
+  --border: #fbfaf2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+}

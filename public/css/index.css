@@ -1,0 +1,42 @@
+.main {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100vh;
+  background-color: var(--background);
+}
+
+.main_title {
+  text-align: center;
+}
+
+.main_title h1 {
+  font-size: 4rem;
+  padding-bottom: 0.5rem;
+}
+
+.main_title h3 {
+  font-size: 1.3rem;
+}
+
+.main_title span {
+  font-style: italic;
+}
+
+.main_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main_buttons button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: 8rem;
+}
