@@ -9,12 +9,13 @@
 <body>
   <section class="register">
     <h1>login</h1>
-    <form action="" method="post" class="register_form">
-      <label for="name">user</label>
-      <input type="text" class="input" name="user">
+    <form action="/login" method="post" class="register_form">
+      <label for="name">username</label>
+      <input type="text" class="input" name="username">
       <label for="password">password</label>
-      <input type="text" class="input" name="password">
-      <button>login</button>
+      <input type="password" class="input" name="password">
+
+      <button type="submit" class="submit_button">login</button>
       <p>don't have an account? <a href="/register"><span class="underline">sign up</a></span></p>
     </form>
   </section>
